@@ -2,10 +2,10 @@ class Stack {
     constructor(){
         this.stack = [];
     }
-
     add(item){
         return this.stack.push(item);
     }
+
     remove(){
         if(this.stack.length){
             return this.stack.pop();
@@ -13,12 +13,15 @@ class Stack {
     }
 }
 
-const listItem = new Stack();
-    listItem.add("Hasan");
-    listItem.add("Hasan1");
-    listItem.add("Hasan2");
-console.log(listItem);
+const itemList = new Stack();
 
-const removeItem = listItem.remove();
-console.log(removeItem);
-console.log(listItem);
+itemList.add("Fuad");
+itemList.add("Fahad");
+itemList.add("Farhana");
+
+console.log(itemList);
+
+const removedItem = itemList.remove();
+        console.log(removedItem);
+
+    console.log(itemList);
