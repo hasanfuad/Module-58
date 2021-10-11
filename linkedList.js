@@ -12,7 +12,7 @@ class LinkedList {
     }
     add(value){
         const newNode = new Node(value);
-        const current = this.head;
+        let current = this.head;
         while(current.next != null){
             current = current.next;
         }
