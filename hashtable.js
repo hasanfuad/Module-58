@@ -15,12 +15,11 @@ class Dictionary {
 
 const phoneBook = new Dictionary();
 
-        phoneBook.add("Fuad", 01232322304);
-        phoneBook.add("Fahad", 01232322304);
-        phoneBook.add("Farhana", 012232304);
+const randomNum = Math.random() * 99;
+const precised = Math.floor(randomNum);
+
+        phoneBook.add(precised, "fuad");
+        phoneBook.add(precised, "hasan");
+        phoneBook.add(precised, "fahad");
 
         console.log(phoneBook);
-
-    const findNumber = phoneBook.get("Fahad");
-
-            console.log(findNumber);
