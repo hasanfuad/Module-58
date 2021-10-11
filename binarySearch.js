@@ -22,6 +22,6 @@ function binarySearch(numberList, target) {
   return -1;
 }
 
-const index = binarySearch(numberList, 9);
+const index = binarySearch(numberList, 5);
 
-console.log("Index of targeted value is:", index);
+console.log("Index of targeted value: ", index);
