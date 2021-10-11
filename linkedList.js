@@ -23,4 +23,5 @@ class LinkedList {
 
 const head = new Node(1400);
 const humanChain = new LinkedList(head);
+    humanChain.add(300);
 console.log(humanChain);
